@@ -2,4 +2,4 @@
 has_children: true
 ---
 
-# I/O
+# Input and Output
