@@ -1,5 +1,5 @@
 ---
-parent: io
+parent: Input and Output
 ---
 
 # Well-Known Text (WKT)
