@@ -1,7 +1,6 @@
 A description of the features and functions provided by
-JTS, linked to the relevant
-[Javadoc](javadoc/index.html)
-for the current version.
+JTS, with links to the
+[Javadoc](javadoc/index.html).
 <p>
 
 ## Geometry Model
