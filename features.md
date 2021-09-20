@@ -8,57 +8,52 @@ for the current version.
 
 
 * Support for all
-[](javadoc/org/locationtech/jts/geom/Geometry.html)Geometry
+[Geometry](javadoc/org/locationtech/jts/geom/Geometry.html)
 types defined in the OGC **Simple Features for SQL** specification,
 including:
 
-
-* [](javadoc/org/locationtech/jts/geom/Point.html)Point
-and [](javadoc/org/locationtech/jts/geom/MultiPoint.html)MultiPoint
-* [](javadoc/org/locationtech/jts/geom/LineString.html)LineString
-and [](javadoc/org/locationtech/jts/geom/MultiLineString.html)MultiLineString
-* [](javadoc/org/locationtech/jts/geom/Polygon.html)Polygon
-and [](javadoc/org/locationtech/jts/geom/MultiPolygon.html)MultiPolygon
-* heterogeneous
-[](javadoc/org/locationtech/jts/geom/GeometryCollection.html)GeometryCollection
+  * [Point](javadoc/org/locationtech/jts/geom/Point.html)
+  * [LineString](javadoc/org/locationtech/jts/geom/LineString.html)
+  * [Polygon](javadoc/org/locationtech/jts/geom/Polygon.html)
+  * [MultiPoint](javadoc/org/locationtech/jts/geom/MultiPoint.html)
+  * [MultiLineString](javadoc/org/locationtech/jts/geom/MultiLineString.html)
+  * [MultiPolygon](javadoc/org/locationtech/jts/geom/MultiPolygon.html)
+  * heterogeneous [GeometryCollection](javadoc/org/locationtech/jts/geom/GeometryCollection.html)
 
 
 
 
 ## Geometry Operations
 
+* Topological [validity checking](javadoc/org/locationtech/jts/geom/Geometry.html#isValid())
 
-* Topological [](javadoc/org/locationtech/jts/geom/Geometry.html#isValid())validity checking
+* [Area](javadoc/org/locationtech/jts/geom/Geometry.html#getArea())
 
-* [](javadoc/org/locationtech/jts/geom/Geometry.html#getArea())Area
+* [Length/Perimeter](javadoc/org/locationtech/jts/geom/Geometry.html#getLength())
+
+* [Distance between geometries](javadoc/org/locationtech/jts/geom/Geometry.html#distance(org.locationtech.jts.geom.Geometry))
 and
-[](javadoc/org/locationtech/jts/geom/Geometry.html#getLength())Length/Perimeter
+[isWithinDistance](javadoc/org/locationtech/jts/geom/Geometry.html#isWithinDistance(org.locationtech.jts.geom.Geometry,%20double))
+ predicate
 
-* [](javadoc/org/locationtech/jts/geom/Geometry.html#distance(org.locationtech.jts.geom.Geometry))
-Distance between geometries
-and
-[](javadoc/org/locationtech/jts/geom/Geometry.html#isWithinDistance(org.locationtech.jts.geom.Geometry,%20double))
-isWithinDistance predicate
+* Spatial Predicates based on the Egenhofer DE-9IM model, including the named predicates:
 
-* Spatial Predicates based on the Egenhofer DE-9IM model,
-including the named predicates:
-
-* [](javadoc/org/locationtech/jts/geom/Geometry.html#contains(org.locationtech.jts.geom.Geometry))
+  * [](javadoc/org/locationtech/jts/geom/Geometry.html#contains(org.locationtech.jts.geom.Geometry))
 contains,
 [](javadoc/org/locationtech/jts/geom/Geometry.html#within(org.locationtech.jts.geom.Geometry))
 within
 
-* [](javadoc/org/locationtech/jts/geom/Geometry.html#covers(org.locationtech.jts.geom.Geometry))
+  * [](javadoc/org/locationtech/jts/geom/Geometry.html#covers(org.locationtech.jts.geom.Geometry))
 covers,
 [](javadoc/org/locationtech/jts/geom/Geometry.html#coveredBy(org.locationtech.jts.geom.Geometry))
 coveredBy
 
-* [](javadoc/org/locationtech/jts/geom/Geometry.html#intersects(org.locationtech.jts.geom.Geometry))
+  * [](javadoc/org/locationtech/jts/geom/Geometry.html#intersects(org.locationtech.jts.geom.Geometry))
 intersects,
 [](javadoc/org/locationtech/jts/geom/Geometry.html#disjoint(org.locationtech.jts.geom.Geometry))
 disjoint
 
-* [](javadoc/org/locationtech/jts/geom/Geometry.html#crosses(org.locationtech.jts.geom.Geometry))
+  * [](javadoc/org/locationtech/jts/geom/Geometry.html#crosses(org.locationtech.jts.geom.Geometry))
 crosses
 
 * [](javadoc/org/locationtech/jts/geom/Geometry.html#overlaps(org.locationtech.jts.geom.Geometry))
@@ -70,25 +65,18 @@ touches
 * [](javadoc/org/locationtech/jts/geom/Geometry.html#equals(org.locationtech.jts.geom.Geometry))
 equals
 
-
 and the general
-[](javadoc/org/locationtech/jts/geom/Geometry.html#relate(org.locationtech.jts.geom.Geometry))
-relate operation returning the DE-9IM
-[](javadoc/org/locationtech/jts/geom/IntersectionMatrix.html)
-intersection matrix.
+[relate](javadoc/org/locationtech/jts/geom/Geometry.html#relate(org.locationtech.jts.geom.Geometry))
+ predicate returning the DE-9IM
+[intersection matrix](javadoc/org/locationtech/jts/geom/IntersectionMatrix.html)
 
 * Overlay functions including
 
-* [](javadoc/org/locationtech/jts/geom/Geometry.html#intersection(org.locationtech.jts.geom.Geometry))
-intersection,
-* [](javadoc/org/locationtech/jts/geom/Geometry.html#difference(org.locationtech.jts.geom.Geometry))
-difference,
-* [](javadoc/org/locationtech/jts/geom/Geometry.html#union(org.locationtech.jts.geom.Geometry))
-union,
-* [](javadoc/org/locationtech/jts/geom/Geometry.html#symDifference(org.locationtech.jts.geom.Geometry))
-symmetric difference
-* [](javadoc/org/locationtech/jts/geom/Geometry.html#union())
-unary union, providing fast union of geometry collections
+  * [intersection](javadoc/org/locationtech/jts/geom/Geometry.html#intersection(org.locationtech.jts.geom.Geometry))
+  * [difference](javadoc/org/locationtech/jts/geom/Geometry.html#difference(org.locationtech.jts.geom.Geometry))
+  * [symmetric difference](javadoc/org/locationtech/jts/geom/Geometry.html#symDifference(org.locationtech.jts.geom.Geometry))
+  * [union](javadoc/org/locationtech/jts/geom/Geometry.html#union(org.locationtech.jts.geom.Geometry))
+  * [unary union](javadoc/org/locationtech/jts/geom/Geometry.html#union()), providing fast union of geometry collections
 
 
 * [](javadoc/org/locationtech/jts/geom/Geometry.html#buffer(double))
