@@ -1,12 +1,13 @@
 # Feature Summary
 {: .no_toc }
 
-1. TOC
-{:toc}
-
 A description of the features and functions provided by
 JTS, with links to the
 [Javadoc](javadoc/index.html).
+
+1. TOC
+{:toc}
+
 
 ## Geometry Model
 
