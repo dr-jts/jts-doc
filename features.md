@@ -16,7 +16,7 @@ geometry
 types defined in the OGC *Simple Features for SQL* specification,
 including:
 
-* [Geometry](javadoc/org/locationtech/jts/geom/Geometry.html) (abstract)
+* [Geometry](javadoc/org/locationtech/jts/geom/Geometry.html) (abstract base class)
 * [Point](javadoc/org/locationtech/jts/geom/Point.html)
 * [LineString](javadoc/org/locationtech/jts/geom/LineString.html)
 * [Polygon](javadoc/org/locationtech/jts/geom/Polygon.html)
