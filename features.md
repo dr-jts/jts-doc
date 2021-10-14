@@ -12,17 +12,18 @@ JTS, with links to the
 ## Geometry Model
 
 * Support for all
-[Geometry](javadoc/org/locationtech/jts/geom/Geometry.html)
-types defined in the OGC **Simple Features for SQL** specification,
+geometry
+types defined in the OGC *Simple Features for SQL* specification,
 including:
 
-  * [Point](javadoc/org/locationtech/jts/geom/Point.html)
-  * [LineString](javadoc/org/locationtech/jts/geom/LineString.html)
-  * [Polygon](javadoc/org/locationtech/jts/geom/Polygon.html)
-  * [MultiPoint](javadoc/org/locationtech/jts/geom/MultiPoint.html)
-  * [MultiLineString](javadoc/org/locationtech/jts/geom/MultiLineString.html)
-  * [MultiPolygon](javadoc/org/locationtech/jts/geom/MultiPolygon.html)
-  * heterogeneous [GeometryCollection](javadoc/org/locationtech/jts/geom/GeometryCollection.html)
+* [Geometry](javadoc/org/locationtech/jts/geom/Geometry.html) (abstract)
+* [Point](javadoc/org/locationtech/jts/geom/Point.html)
+* [LineString](javadoc/org/locationtech/jts/geom/LineString.html)
+* [Polygon](javadoc/org/locationtech/jts/geom/Polygon.html)
+* [MultiPoint](javadoc/org/locationtech/jts/geom/MultiPoint.html)
+* [MultiLineString](javadoc/org/locationtech/jts/geom/MultiLineString.html)
+* [MultiPolygon](javadoc/org/locationtech/jts/geom/MultiPolygon.html)
+* heterogeneous [GeometryCollection](javadoc/org/locationtech/jts/geom/GeometryCollection.html)
 
 
 
