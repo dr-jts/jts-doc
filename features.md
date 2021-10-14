@@ -125,28 +125,27 @@ Minimum Bounding Circle
 
 ## Metric Functions
 
-* [Distance between geometries](javadoc/org/locationtech/jts/operation/distance/DistanceOp.html), with supporting points
-* [Discrete Hausdorff distance](javadoc/org/locationtech/jts/algorithm/distance/DiscreteHausdorffDistance.html), with supporting points
-* [Discrete Frechet distance](javadoc/org/locationtech/jts/algorithm/distance/DiscreteFrechetDistance.html), with supporting points
+* [Euclidean Distance](javadoc/org/locationtech/jts/operation/distance/DistanceOp.html) between geometries, with nearest points
+* [Discrete Hausdorff distance](javadoc/org/locationtech/jts/algorithm/distance/DiscreteHausdorffDistance.html), with nearest points
+* [Discrete Frechet distance](javadoc/org/locationtech/jts/algorithm/distance/DiscreteFrechetDistance.html), with nearest points
 * [Area](javadoc/org/locationtech/jts/algorithm/match/AreaSimilarityMeasure.html) and
 [Hausdorff](javadoc/org/locationtech/jts/algorithm/match/HausdorffSimilarityMeasure.html)
 similarity measures
 
-
 ## Spatial algorithms
 
-* [](javadoc/org/locationtech/jts/algorithm/RobustLineIntersector.html)Robust line segment intersection
+* [Robust line segment intersection](javadoc/org/locationtech/jts/algorithm/RobustLineIntersector.html)
 * Efficient line arrangement
-[](javadoc/org/locationtech/jts/noding/package-summary.html)intersection and noding
-* [](javadoc/org/locationtech/jts/noding/snapround/package-summary.html)
-Snap-rounding for noding line arrangements
-* Efficient [](javadoc/org/locationtech/jts/algorithm/locate/package-summary.html)Point-in-Polygon testing
+[intersection and noding](javadoc/org/locationtech/jts/noding/package-summary.html)
+* [Snap-rounding](javadoc/org/locationtech/jts/noding/snapround/package-summary.html)
+ for noding line arrangements
+* Efficient [Point-in-Polygon](javadoc/org/locationtech/jts/algorithm/locate/package-summary.html) testing
 
 
 ## Mathematical Functions
 
-* [](javadoc/org/locationtech/jts/algorithm/Angle.html)Angle computation
-* [](javadoc/org/locationtech/jts/algorithm/VectorMath.html)Vector arithmetic
+* [Angle](javadoc/org/locationtech/jts/algorithm/Angle.html) computations
+* [Vector arithmetic](javadoc/org/locationtech/jts/algorithm/VectorMath.html)
 
 
 ## Spatial structures
