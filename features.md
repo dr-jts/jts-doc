@@ -3,10 +3,8 @@
 A description of the features and functions provided by
 JTS, with links to the
 [Javadoc](javadoc/index.html).
-<p>
 
 ## Geometry Model
-
 
 * Support for all
 [Geometry](javadoc/org/locationtech/jts/geom/Geometry.html)
