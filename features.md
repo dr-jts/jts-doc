@@ -125,13 +125,11 @@ Minimum Bounding Circle
 
 ## Metric Functions
 
-* [](javadoc/org/locationtech/jts/operation/distance/DistanceOp.html)Distance between geometries, with supporting points
-* [](javadoc/org/locationtech/jts/algorithm/distance/DiscreteHausdorffDistance.html)
-Discrete Hausdorff distance
-* [](javadoc/org/locationtech/jts/algorithm/distance/DiscreteFrechetDistance.html)
-Discrete Frechet distance
-* [](javadoc/org/locationtech/jts/algorithm/match/AreaSimilarityMeasure.html)Area and
-[](javadoc/org/locationtech/jts/algorithm/match/HausdorffSimilarityMeasure.html)Hausdorff<a>
+* [Distance between geometries](javadoc/org/locationtech/jts/operation/distance/DistanceOp.html), with supporting points
+* [Discrete Hausdorff distance](javadoc/org/locationtech/jts/algorithm/distance/DiscreteHausdorffDistance.html), with supporting points
+* [Discrete Frechet distance](javadoc/org/locationtech/jts/algorithm/distance/DiscreteFrechetDistance.html), with supporting points
+* [Area](javadoc/org/locationtech/jts/algorithm/match/AreaSimilarityMeasure.html) and
+[Hausdorff](javadoc/org/locationtech/jts/algorithm/match/HausdorffSimilarityMeasure.html)
 similarity measures
 
 
