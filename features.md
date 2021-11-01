@@ -11,9 +11,7 @@ JTS, with links to the
 
 ## Geometry Model
 
-* Support for all
-geometry
-types defined in the OGC *Simple Features for SQL* specification,
+Support for all geometry types defined in the OGC *Simple Features for SQL* specification,
 including:
 
 * [Geometry](javadoc/org/locationtech/jts/geom/Geometry.html) (abstract base class)
@@ -38,11 +36,12 @@ including:
   and [writer](javadoc/org/locationtech/jts/io/gml2/GMLWriter.html)
 * Java Swing/AWT Shape [writer](javadoc/org/locationtech/jts/awt/package-summary.html)
 
+## Validation and Repair
 
+* Topological [validity checking](javadoc/org/locationtech/jts/geom/Geometry.html#isValid())
 
 ## Geometry Operations
 
-* Topological [validity checking](javadoc/org/locationtech/jts/geom/Geometry.html#isValid())
 * [Area](javadoc/org/locationtech/jts/geom/Geometry.html#getArea())
 * [Length/Perimeter](javadoc/org/locationtech/jts/geom/Geometry.html#getLength())
 * [Distance between geometries](javadoc/org/locationtech/jts/geom/Geometry.html#distance(org.locationtech.jts.geom.Geometry))
