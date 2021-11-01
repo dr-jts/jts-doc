@@ -25,6 +25,18 @@ including:
 * [MultiPolygon](javadoc/org/locationtech/jts/geom/MultiPolygon.html)
 * heterogeneous [GeometryCollection](javadoc/org/locationtech/jts/geom/GeometryCollection.html)
 
+## Geometry I/O
+
+* WKT (Well-Known Text)
+  [reader](javadoc/org/locationtech/jts/io/WKTReader.html)
+  and [writer](javadoc/org/locationtech/jts/io/WKTWriter.html)
+* WKB (Well-Known Binary)
+  [reader](javadoc/org/locationtech/jts/io/WKBReader.html)
+  and [writer](javadoc/org/locationtech/jts/io/WKBWriter.html)
+* GML(Geography Markup Language) Version 2
+  [reader](javadoc/org/locationtech/jts/io/gml2/GMLReader.html)
+  and [writer](javadoc/org/locationtech/jts/io/gml2/GMLWriter.html)
+* Java Swing/AWT Shape [writer](javadoc/org/locationtech/jts/awt/package-summary.html)
 
 
 
@@ -111,6 +123,7 @@ Minimum Bounding Circle
 [Hausdorff](javadoc/org/locationtech/jts/algorithm/match/HausdorffSimilarityMeasure.html)
 similarity measures
 
+
 ## Spatial algorithms
 
 * [Robust line segment intersection](javadoc/org/locationtech/jts/algorithm/RobustLineIntersector.html)
@@ -119,12 +132,6 @@ similarity measures
 * [Snap-rounding](javadoc/org/locationtech/jts/noding/snapround/package-summary.html)
  for noding line arrangements
 * Efficient [Point-in-Polygon](javadoc/org/locationtech/jts/algorithm/locate/package-summary.html) testing
-
-
-## Mathematical Functions
-
-* [Angle](javadoc/org/locationtech/jts/algorithm/Angle.html) computations
-* [Vector arithmetic](javadoc/org/locationtech/jts/algorithm/VectorMath.html)
 
 
 ## Spatial structures
@@ -141,25 +148,14 @@ similarity measures
 and [](javadoc/org/locationtech/jts/planargraph/algorithm/package-summary.html)graph algorithms
 
 
-## Input/Output
 
-* WKT (Well-Known Text)
-[](javadoc/org/locationtech/jts/io/WKTReader.html)reading and
-[](javadoc/org/locationtech/jts/io/WKTWriter.html)writing
-* WKB (Well-Known Binary)
-[](javadoc/org/locationtech/jts/io/WKBReader.html)reading
-and
-[](javadoc/org/locationtech/jts/io/WKBWriter.html)writing
-* GML(Geography Markup Language) Version 2
-[](javadoc/org/locationtech/jts/io/gml2/GMLReader.html)reading
-and
-[](javadoc/org/locationtech/jts/io/gml2/GMLWriter.html)writing
-* Java Swing/AWT Shape [](javadoc/org/locationtech/jts/awt/package-summary.html)writing
+## Mathematical Functions
+
+* [Angle](javadoc/org/locationtech/jts/algorithm/Angle.html) computations
+* [Vector arithmetic](javadoc/org/locationtech/jts/algorithm/VectorMath.html)
 
 
 ## High-Precision Arithmetic
 
-* [](javadoc/org/locationtech/jts/algorithm/RobustDeterminant.html)
-Robust evaluation of 2x2 double-precision determinants
-* [](javadoc/org/locationtech/jts/math/DD.html)
-DoubleDouble extended-precision arithmetic
+* [Robust evaluation of 2x2 double-precision determinants](javadoc/org/locationtech/jts/algorithm/RobustDeterminant.html)
+* [DoubleDouble](javadoc/org/locationtech/jts/math/DD.html) extended-precision arithmetic
