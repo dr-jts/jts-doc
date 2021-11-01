@@ -31,45 +31,23 @@ including:
 ## Geometry Operations
 
 * Topological [validity checking](javadoc/org/locationtech/jts/geom/Geometry.html#isValid())
-
 * [Area](javadoc/org/locationtech/jts/geom/Geometry.html#getArea())
-
 * [Length/Perimeter](javadoc/org/locationtech/jts/geom/Geometry.html#getLength())
-
 * [Distance between geometries](javadoc/org/locationtech/jts/geom/Geometry.html#distance(org.locationtech.jts.geom.Geometry))
 and
 [isWithinDistance](javadoc/org/locationtech/jts/geom/Geometry.html#isWithinDistance(org.locationtech.jts.geom.Geometry,%20double))
  predicate
-
 * Spatial Predicates based on the Egenhofer DE-9IM model, including the named predicates:
-
-  * [](javadoc/org/locationtech/jts/geom/Geometry.html#contains(org.locationtech.jts.geom.Geometry))
-contains,
-[](javadoc/org/locationtech/jts/geom/Geometry.html#within(org.locationtech.jts.geom.Geometry))
-within
-
-  * [](javadoc/org/locationtech/jts/geom/Geometry.html#covers(org.locationtech.jts.geom.Geometry))
-covers,
-[](javadoc/org/locationtech/jts/geom/Geometry.html#coveredBy(org.locationtech.jts.geom.Geometry))
-coveredBy
-
-  * [](javadoc/org/locationtech/jts/geom/Geometry.html#intersects(org.locationtech.jts.geom.Geometry))
-intersects,
-[](javadoc/org/locationtech/jts/geom/Geometry.html#disjoint(org.locationtech.jts.geom.Geometry))
-disjoint
-
-  * [](javadoc/org/locationtech/jts/geom/Geometry.html#crosses(org.locationtech.jts.geom.Geometry))
-crosses
-
-* [](javadoc/org/locationtech/jts/geom/Geometry.html#overlaps(org.locationtech.jts.geom.Geometry))
-overlaps
-
-* [](javadoc/org/locationtech/jts/geom/Geometry.html#touches(org.locationtech.jts.geom.Geometry))
-touches
-
-* [](javadoc/org/locationtech/jts/geom/Geometry.html#equals(org.locationtech.jts.geom.Geometry))
-equals
-
+  * [contains](javadoc/org/locationtech/jts/geom/Geometry.html#contains(org.locationtech.jts.geom.Geometry)),
+    [within](javadoc/org/locationtech/jts/geom/Geometry.html#within(org.locationtech.jts.geom.Geometry))
+  * [covers](javadoc/org/locationtech/jts/geom/Geometry.html#covers(org.locationtech.jts.geom.Geometry)),
+    [coveredBy](javadoc/org/locationtech/jts/geom/Geometry.html#coveredBy(org.locationtech.jts.geom.Geometry))
+  * [intersects](javadoc/org/locationtech/jts/geom/Geometry.html#intersects(org.locationtech.jts.geom.Geometry)),
+    [disjoint](javadoc/org/locationtech/jts/geom/Geometry.html#disjoint(org.locationtech.jts.geom.Geometry))
+  * [crosses](javadoc/org/locationtech/jts/geom/Geometry.html#crosses(org.locationtech.jts.geom.Geometry))
+  * [overlaps](javadoc/org/locationtech/jts/geom/Geometry.html#overlaps(org.locationtech.jts.geom.Geometry))
+  * [touches](javadoc/org/locationtech/jts/geom/Geometry.html#touches(org.locationtech.jts.geom.Geometry))
+  * [equals](javadoc/org/locationtech/jts/geom/Geometry.html#equals(org.locationtech.jts.geom.Geometry))
 and the general
 [relate](javadoc/org/locationtech/jts/geom/Geometry.html#relate(org.locationtech.jts.geom.Geometry))
  predicate returning the DE-9IM
@@ -83,14 +61,9 @@ and the general
   * [union](javadoc/org/locationtech/jts/geom/Geometry.html#union(org.locationtech.jts.geom.Geometry))
   * [unary union](javadoc/org/locationtech/jts/geom/Geometry.html#union()), providing fast union of geometry collections
 
-
-* [](javadoc/org/locationtech/jts/geom/Geometry.html#buffer(double))
-Buffer computation (also known as Minkowski sum with a circle)
-
-* selection of different
-[](javadoc/org/locationtech/jts/geom/Geometry.html#buffer(double,%20int,%20int))end-cap and join
-styles.
-
+* [Buffer](javadoc/org/locationtech/jts/geom/Geometry.html#buffer(double))
+  computation (also known as Minkowski sum with a circle)
+  * selection of buffer [end-cap and join styles](javadoc/org/locationtech/jts/geom/Geometry.html#buffer(double,%20int,%20int)).
 
 * [](javadoc/org/locationtech/jts/geom/Geometry.html#convexHull())Convex hull
 * [](javadoc/org/locationtech/jts/simplify/package-summary.html)Geometric simplification
