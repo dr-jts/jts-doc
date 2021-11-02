@@ -56,7 +56,7 @@ and
 [isWithinDistance](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/geom/Geometry.html#isWithinDistance(org.locationtech.jts.geom.Geometry,%20double))
  predicate
  
- ## Metric Functions
+## Metric Functions
 
 * [Euclidean Distance](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/operation/distance/DistanceOp.html) between geometries, with nearest points
 * [Discrete Hausdorff distance](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/algorithm/distance/DiscreteHausdorffDistance.html), with nearest points
