@@ -23,6 +23,17 @@ including:
 * [MultiPolygon](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/geom/MultiPolygon.html)
 * heterogeneous [GeometryCollection](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/geom/GeometryCollection.html)
 
+## Precision Handling
+
+* Explicit coordinate
+[](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/geom/PrecisionModel.html)Precision Model
+* Geometry precision reduction
+
+## Validation and Repair
+
+* Topological [validity checking](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/geom/Geometry.html#isValid())
+
+
 ## Geometry I/O
 
 * WKT (Well-Known Text)
@@ -36,10 +47,6 @@ including:
   and [writer](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/io/gml2/GMLWriter.html)
 * Java Swing/AWT Shape [writer](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/awt/package-summary.html)
 
-## Validation and Repair
-
-* Topological [validity checking](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/geom/Geometry.html#isValid())
-
 ## Geometry Operations
 
 * [Area](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/geom/Geometry.html#getArea())
@@ -48,6 +55,18 @@ including:
 and
 [isWithinDistance](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/geom/Geometry.html#isWithinDistance(org.locationtech.jts.geom.Geometry,%20double))
  predicate
+ 
+ ## Metric Functions
+
+* [Euclidean Distance](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/operation/distance/DistanceOp.html) between geometries, with nearest points
+* [Discrete Hausdorff distance](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/algorithm/distance/DiscreteHausdorffDistance.html), with nearest points
+* [Discrete Frechet distance](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/algorithm/distance/DiscreteFrechetDistance.html), with nearest points
+* [Area](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/algorithm/match/AreaSimilarityMeasure.html) and
+[Hausdorff](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/algorithm/match/HausdorffSimilarityMeasure.html)
+similarity measures
+
+## Spatial Predicates
+
 * Spatial Predicates based on the Egenhofer DE-9IM model, including the named predicates:
   * [contains](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/geom/Geometry.html#contains(org.locationtech.jts.geom.Geometry)),
     [within](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/geom/Geometry.html#within(org.locationtech.jts.geom.Geometry))
@@ -64,13 +83,19 @@ and the general
  predicate returning the DE-9IM
 [intersection matrix](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/geom/IntersectionMatrix.html)
 
-* Overlay functions including
+## Overlay
 
-  * [intersection](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/geom/Geometry.html#intersection(org.locationtech.jts.geom.Geometry))
-  * [difference](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/geom/Geometry.html#difference(org.locationtech.jts.geom.Geometry))
-  * [symmetric difference](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/geom/Geometry.html#symDifference(org.locationtech.jts.geom.Geometry))
-  * [union](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/geom/Geometry.html#union(org.locationtech.jts.geom.Geometry))
-  * [unary union](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/geom/Geometry.html#union()), providing fast union of geometry collections
+Overlay functions including
+
+* [intersection](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/geom/Geometry.html#intersection(org.locationtech.jts.geom.Geometry))
+*  [difference](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/geom/Geometry.html#difference(org.locationtech.jts.geom.Geometry))
+* [symmetric difference](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/geom/Geometry.html#symDifference(org.locationtech.jts.geom.Geometry))
+* [union](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/geom/Geometry.html#union(org.locationtech.jts.geom.Geometry))
+* [unary union](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/geom/Geometry.html#union()), providing fast union of geometry collections
+
+
+
+## Geometric Constructions
 
 * [Buffer](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/geom/Geometry.html#buffer(double))
   computation (also known as Minkowski sum with a circle)
@@ -86,17 +111,6 @@ and
 topology-preserving simplification
 * Geometric [](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/densify/Densifier.html)densification
 * [](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/linearref/package-summary.html)Linear referencing
-
-
-## Precision Handling
-
-* Explicit coordinate
-[](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/geom/PrecisionModel.html)Precision Model
-* Geometry precision reduction
-
-
-## Geometric Constructions
-
 * [](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/triangulate/DelaunayTriangulationBuilder.html)
 Delaunay triangulation
 and
@@ -111,16 +125,6 @@ of a geometry
 Minimum Enclosing Rectangle
 * [](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/algorithm/MinimumBoundingCircle.html)
 Minimum Bounding Circle
-
-
-## Metric Functions
-
-* [Euclidean Distance](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/operation/distance/DistanceOp.html) between geometries, with nearest points
-* [Discrete Hausdorff distance](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/algorithm/distance/DiscreteHausdorffDistance.html), with nearest points
-* [Discrete Frechet distance](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/algorithm/distance/DiscreteFrechetDistance.html), with nearest points
-* [Area](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/algorithm/match/AreaSimilarityMeasure.html) and
-[Hausdorff](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/algorithm/match/HausdorffSimilarityMeasure.html)
-similarity measures
 
 
 ## Spatial algorithms
