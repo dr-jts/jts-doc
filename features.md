@@ -32,7 +32,7 @@ including:
 ## Validation and Repair
 
 * Topological [validity checking](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/geom/Geometry.html#isValid())
-
+* Geometry fixing
 
 ## Geometry I/O
 
