@@ -1,4 +1,4 @@
-# Feature Summary
+# JTS Feature Summary
 {: .no_toc }
 
 A description of the features and functions provided by
