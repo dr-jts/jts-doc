@@ -53,8 +53,6 @@ including:
 * [Length/Perimeter](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/geom/Geometry.html#getLength())
 * [Distance between geometries](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/geom/Geometry.html#distance(org.locationtech.jts.geom.Geometry))
 and
-[isWithinDistance](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/geom/Geometry.html#isWithinDistance(org.locationtech.jts.geom.Geometry,%20double))
- predicate
  
 ## Metric Functions
 
@@ -66,6 +64,8 @@ and
 similarity measures
 
 ## Spatial Predicates
+
+### Topological Predicates
 
 * Spatial Predicates based on the Egenhofer DE-9IM model, including the named predicates:
   * [contains](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/geom/Geometry.html#contains(org.locationtech.jts.geom.Geometry)),
@@ -82,6 +82,11 @@ and the general
 [relate](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/geom/Geometry.html#relate(org.locationtech.jts.geom.Geometry))
  predicate returning the DE-9IM
 [intersection matrix](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/geom/IntersectionMatrix.html)
+
+### Distance predicates
+
+[isWithinDistance](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/geom/Geometry.html#isWithinDistance(org.locationtech.jts.geom.Geometry,%20double))
+ predicate
 
 ## Overlay
 
@@ -139,7 +144,7 @@ Minimum Bounding Circle
 
 ## Spatial structures
 
-* Spatial index structures including:
+### Spatial index structures:
 
 * [](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/index/quadtree/Quadtree.html)Quadtree
 * [](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/index/strtree/STRtree.html)STR-tree
@@ -147,9 +152,10 @@ Minimum Bounding Circle
 * [](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/index/intervalrtree/package-summary.html)Interval R-tree
 * [](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/index/chain/package-summary.html)Monotone Chains
 
+### Graph structures and algorithms
+
 * [](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/planargraph/PlanarGraph.html)Planar graphs
 and [](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/planargraph/algorithm/package-summary.html)graph algorithms
-
 
 
 ## Mathematical Functions
