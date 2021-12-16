@@ -21,7 +21,7 @@ including:
 * [MultiPoint](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/geom/MultiPoint.html)
 * [MultiLineString](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/geom/MultiLineString.html)
 * [MultiPolygon](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/geom/MultiPolygon.html)
-* heterogeneous [GeometryCollection](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/geom/GeometryCollection.html)
+* [GeometryCollection](https://locationtech.github.io/jts/javadoc/org/locationtech/jts/geom/GeometryCollection.html)
 
 ## Precision Handling
 
